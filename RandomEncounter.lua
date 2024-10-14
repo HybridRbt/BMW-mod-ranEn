@@ -2,14 +2,14 @@ local RandomEncounter = {}
 
 -- 每只怪随机刷怪的概率 50 即为 百分之50， 最大100 最小0
 -- 数字 不要加引号 加了用不了
-RandomEncounter.RandomRate = 50
+RandomEncounter.RandomRate = 30
 
 -- 每只怪 随机刷怪的数量 Min为最小随机数 Max 为最大随机数
 -- 举例 Min 为 1 Max 为 5 则 每次在 1-5个之间随机
 -- 数字 不要加引号 加了用不了
 RandomEncounter.RandomCount = {
     Min = 1,
-    Max = 1
+    Max = 2
 }
 
 RandomEncounter.MonsterList = {
