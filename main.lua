@@ -69,7 +69,7 @@ ExecuteWithDelay(10000, function()
                     if curCharacter:GetTamerOwner().TamerType == 1 then
 
                         if RandomEncounter.RandomRate ~= 0 then
-                            local isSpawnRandom = math.random(RandomEncounter.RandomRate) <= RandomEncounter.RandomRate
+                            local isSpawnRandom = math.random(1, 100) <= RandomEncounter.RandomRate
 
                             if isSpawnRandom then
                                 local random = math.random(RandomEncounter.RandomCount.Min, RandomEncounter.RandomCount.Max)
